@@ -26,7 +26,7 @@ server.listen(8080, () => {
 });
 
 const MONGO_URL =
-  "mongodb+srv://dipteshbal:undertaker21@cluster0.06a5vwb.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0";
+  "mongodb+srv://<username>:<password>@cluster0.06a5vwb.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0";
 
 mongoose.Promise = Promise;
 mongoose.connect(MONGO_URL);
