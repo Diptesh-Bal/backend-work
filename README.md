@@ -8,6 +8,7 @@ This project is a Node.js backend API built with Express and TypeScript. It demo
 - **User Management:** Get all users, update user info, and delete users (with authentication and authorization).
 - **Middleware:** Includes authentication and ownership checks for protected routes.
 - **Modular Structure:** Organized controllers, routes, middlewares, and helpers for scalability.
+---
 
 ## Tech Stack
 
@@ -15,6 +16,8 @@ This project is a Node.js backend API built with Express and TypeScript. It demo
 - **TypeScript** for type safety
 - **MongoDB** with **Mongoose** for data storage
 - **Lodash** for utility functions
+
+---
 
 ## Project Structure
 
@@ -33,6 +36,7 @@ backend-work/
 ├── tsconfig.json       # TypeScript config
 └── README.md           # Project documentation
 ```
+---
 
 ## Getting Started
 
@@ -61,11 +65,15 @@ backend-work/
 5. Access the API documentation:
    - Navigate to `http://localhost:3000/api-docs` in your browser.
 
+---
+
 ## Usage
 
 - Use tools like Postman or Insomnia for API testing.
 - Register a new user, then log in to access protected routes.
 - Explore the API documentation for available endpoints and their usage.
+
+---
 
 ## Contributing
 
